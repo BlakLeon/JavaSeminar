@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="681.25" y="0.0">DayTwo.Student</node>
+    <node x="170.25" y="275.0">DayTwo.Seminar</node>
+    <node x="217.25000000000003" y="0.0">DayTwo.Teacher</node>
+    <node x="418.25" y="318.0">DayTwo.School</node>
+    <node x="0.0" y="636.0">DayTwo.FundedSeminar</node>
+    <node x="296.0" y="636.0">DayTwo.OpenSeminar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DayTwo.Seminar" target="DayTwo.Teacher">
+      <point x="-28.5" y="-155.5" />
+      <point x="255.75" y="255.0" />
+      <point x="279.25" y="255.0" />
+      <point x="-62.0" y="112.5" />
+    </edge>
+    <edge source="DayTwo.OpenSeminar" target="DayTwo.Seminar">
+      <point x="65.5" y="-37.5" />
+      <point x="492.5" y="611.0" />
+      <point x="369.75" y="611.0" />
+      <point x="85.5" y="155.5" />
+    </edge>
+    <edge source="DayTwo.FundedSeminar" target="DayTwo.Seminar">
+      <point x="69.0" y="-37.5" />
+      <point x="207.0" y="611.0" />
+      <point x="255.75" y="611.0" />
+      <point x="-28.5" y="155.5" />
+    </edge>
+    <edge source="DayTwo.School" target="DayTwo.Teacher">
+      <point x="-54.5" y="-112.5" />
+      <point x="472.75" y="255.0" />
+      <point x="403.25" y="255.0" />
+      <point x="62.0" y="112.5" />
+    </edge>
+    <edge source="DayTwo.Teacher" target="DayTwo.Seminar">
+      <point x="20.66666666666663" y="112.5" />
+      <point x="361.91666666666663" y="255.0" />
+      <point x="369.75" y="255.0" />
+      <point x="85.5" y="-155.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9466484268125855" x="455.74277456647394" y="345.5" />
+  <SelectedNodes>
+    <node>DayTwo.Student</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
